@@ -1,6 +1,8 @@
 import React from 'react';
 import { Stack, Box } from '@mui/material';
-import { VideoCard, ChannelCard } from './';
+import VideoCard from './VideoCard';
+import ChannelCard from './ChannelCard';
+// import { VideoCard, ChannelCard } from './index';
 
 const Videos = ({videos}) => {
     console.log(videos)

@@ -7,8 +7,15 @@ import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoCha
 
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => (
   <Card>
+    <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
+      <CardMedia
+       
+      />
+    </Link>
     
   </Card>
 );
+        
+      
 
 export default VideoCard
